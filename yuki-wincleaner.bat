@@ -21,14 +21,11 @@ del /f /s /q %windir%\*.bak
 :: Remove restored files created by an checkdisk utility.
 del /f /s /q %systemdrive%\*.chk
 
-:: Remove content from recycle bin.
+:: Remove old content from recycle bin.
 del /f /s /q %systemdrive%\recycled\*.*
 
 :: Remove powercfg energy report.
 del /f /s /q %windir%\system32\energy-report.html
-
-:: Remove all prefetched files.
-del /f /s /q %windir%\prefetch\*.*
 
 :: Remove extracted, not needed files of driver installators.
 del /f /s /q %systemdrive%\AMD\*.*
