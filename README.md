@@ -19,6 +19,8 @@
 - Event logs
 - Extracted files of drivers
   ###### WinCleaner also suggests optimizing storage by selecting the required optimization type: defragmentation for HDDs and retrim for SSDs.
+  ###### Warning: use it when your system is idle.
+  ###### Warning: it removes all backups and logs!
 
 <hr>
 
